@@ -1,0 +1,148 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  color: white;
+  padding: 14px 16px;
+  color: white;
+  border: none;
+  margin: 0;
+  background-color: black;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover {
+  background-color: teal;
+}
+
+.subMenu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.subMenu a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .subMenu {
+  display: block;
+}
+
+.subMenu a:hover {
+  background-color: teal;
+}
+
+.text {
+  text-align: center;
+  background-color: white;
+}
+
+.avatar {
+  border-radius: 50%;
+  padding-right: 1px;
+  padding-left: 1px;
+  margin-left: 160px;
+}
+
+.img {
+  margin-left: 40ppx;
+}
+
+div.name span {
+  padding-left: 160px;
+}
+div.passion span {
+  margin-top: 100px;
+  padding-left: 170px;
+}
+
+div.section2 {
+  margin-left: 200px;
+}
+
+div.section2 #type {
+  border-collapse: separate;
+  border-spacing: 20px 0px;
+}
+
+#type td {
+  border: 1px solid #ddd;
+  padding-left: 60;
+  padding-right: 60;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#type th {
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: 1px solid #ddd;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 125px;
+  padding-right: 125px;
+}
+#type th:nth-child(2) {
+  background-color: #696969;
+}
+
+div.row .column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row {
+  background-color: blue;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+input[type="text"] {
+  width: 760px;
+  height: 60px;
+  border: none;
+  border-bottom: 1px solid black;
+  box-shadow: 0 4px 8px 0;
+  transition: 0.3s;
+}
